@@ -13,6 +13,8 @@ Installation
 Emoji Unicode characters (e.g. like those in fed back to your site from bridgy comments)
 will now be rendered as images.
 
+This project makes use of EmojiJS by Jloutsenhizer, which is distributed under the Apache Licence.
+
 See
 ---
  * Author: Marcus Povey <http://www.marcus-povey.co.uk> 
