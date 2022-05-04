@@ -1,4 +1,10 @@
-<script src="<?= \Idno\Core\Idno::site()->config()->getStaticURL() ?>IdnoPlugins/Emoji/vendor/emojijs/emoji.min.js"></script>
+<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 <script>
-    jQuery.emojifyWholePage();
+    twemoji.parse(
+        document.body,
+        {
+            folder: 'svg',
+            ext: '.svg'
+        }
+    );
 </script>

@@ -1,1 +1,6 @@
-<link href="<?= \Idno\Core\Idno::site()->config()->getStaticURL() ?>IdnoPlugins/Emoji/vendor/emojijs/emoji.min.css" rel="stylesheet">
+<style>
+    .emoji {
+        width: 1em;
+        height: auto;
+    }
+</style>
